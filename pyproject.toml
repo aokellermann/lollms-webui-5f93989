@@ -11,7 +11,7 @@ dependencies = [
     "fastapi>=0.116.1",
     "freedom-search",
     "gitpython==3.1.44",
-    "lollms-core",
+    "lollms",
     "lollmsvectordb==1.3.8",
     "numpy<2.0.0",
     "packaging>=25.0",
@@ -36,7 +36,7 @@ dependencies = [
 [tool.uv.sources]
 torch = { index = "pytorch" }
 safe-store = { workspace = true }
-lollms-core = { workspace = true }
+lollms = { workspace = true }
 
 [[tool.uv.index]]
 name = "default"
